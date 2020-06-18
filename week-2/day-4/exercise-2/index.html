@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise Kamis 2</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        background-color: #efef;
+        font-family: "Balsamiq Sans", cursive;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        margin-left: 100px;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2 class="h3" style="margin-right: 30px;">Check Number</h2>
+      <div class="row">
+        <div class="col-8 md">
+          <input
+            type="number"
+            class="form-control"
+            placeholder="Input Phone Number"
+            id="input"
+          />
+        </div>
+        <div class="col md">
+          <button type="button" class="btn btn-warning" id="btn-input">
+            Check
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 md">
+          <p id="result"></p>
+        </div>
+      </div>
+
+      <p></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
