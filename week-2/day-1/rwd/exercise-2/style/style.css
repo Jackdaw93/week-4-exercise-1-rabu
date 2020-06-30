@@ -1,0 +1,107 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.kolom-satu {
+    height: 400px;
+    display: flex;
+}
+
+.slide {
+    margin-top: 20px;
+    padding: 10px auto;
+}
+
+.slide.img {
+    width: 100px;
+    height: 100px;
+}
+
+.kolom-dua {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    align-items: flex-end;
+    text-align: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 50px;
+
+}
+
+.kolom-tiga {
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: coral;
+}
+
+.kotak {
+    display: flex;
+    background-color: crimson;
+    justify-content: space-between;
+}
+
+.kotak.satu {
+    margin: 100px auto;
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.kolom-empat {
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkcyan;
+}
+
+.kotak {
+    display: flex;
+    background-color: crimson;
+    justify-content: space-between;
+}
+
+.kotak.satu {
+    margin: 100px auto;
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* Responsive @media(min-width: 600px) {
+    .kedua {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .square {
+        width: 30%;
+
+    }
+} */
