@@ -1,0 +1,25 @@
+.card {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(183, 98, 236, 0.973);
+    border-radius: 5px;
+}
+
+.foto {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    border: 1px solid rgb(133, 126, 126)
+}
+
+.img {
+    margin-left: 10px;
+    width: 150px;
+    height: 100px;
+
+}
